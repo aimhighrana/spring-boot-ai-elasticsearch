@@ -1,0 +1,22 @@
+{
+    "properties": {
+        "accountNumber": {
+            "type": "text",
+            "fields": {
+                "keyword": {
+                    "type": "keyword",
+                    "ignore_above": 256
+                }
+            }
+        },
+        "balance": {
+            "type": "float"
+        },
+        "openDate": {
+            "type": "date"
+        },
+        "user_id": {
+            "type": "long"
+        }
+    }
+}
