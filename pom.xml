@@ -130,6 +130,8 @@
 				<includes>
 					<include>**/*.properties</include>
 					<include>**/*.yml</include>
+					<include>**/*.st</include>
+					<include>**/*.json</include>
 				</includes>
 				<excludes>
 					<exclude>static/next-search/**/*.*</exclude>
